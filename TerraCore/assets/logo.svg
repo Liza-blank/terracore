@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="TerraCore logo">
+<polygon points="24,2 43,13 43,35 24,46 5,35 5,13" fill="#5f1c2d" stroke="#F5F1EA" stroke-width="2"/>
+<path d="M13 26a11 11 0 0 1 22 0z" fill="#F5F1EA"/>
+<rect x="22" y="13" width="4" height="13" rx="1" fill="#7A263A"/>
+<rect x="10" y="26" width="28" height="3.5" rx="1.5" fill="#F5F1EA"/>
+<path d="M12 34q3-3 6 0t6 0t6 0t6 0" fill="none" stroke="#F5F1EA" stroke-width="2" stroke-linecap="round"/>
+<path d="M14 40q3-3 5.5 0t5 0t5 0t4.5 0" fill="none" stroke="#F5F1EA" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+</svg>

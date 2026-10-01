@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | TerraCore Materials Testing Laboratory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="index.html"><img src="assets/logo.svg" alt=""><span class="lt">TERRACORE<small>Materials Testing Lab</small></span></a>
+<button id="tog" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+<ul class="menu" id="menu"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" class="active">Contact</a></li></ul></nav></div></header>
+<main>
+<section><div class="wrap">
+<div class="two">
+<div>
+<h2>Request a test</h2>
+<p class="lead">Fill in the form and we will reply with a quotation.</p>
+<form name="request-test" method="POST" action="https://formsubmit.co/dayticliza17@gmail.com" id="form">
+<input type="hidden" name="_subject" value="New TerraCore test request">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" id="next" value="">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<label for="n">Full name</label><input id="n" name="name" required>
+<label for="e">Email address</label><input id="e" name="email" type="email" required>
+<label for="p">Phone number</label><input id="p" name="phone" type="tel">
+<label for="c">Company / organization</label><input id="c" name="company">
+<label for="s">Service needed</label>
+<select id="s" name="service" required>
+<option value="">Select a service</option>
+<option>Soil – Sieve Analysis</option><option>Soil – Standard Proctor</option><option>Soil – CBR</option>
+<option>Concrete – Cylinder Compression</option><option>Concrete – Core Test</option>
+<option>Aggregate – Gradation</option><option>Field – Density Test</option><option>Steel and Masonry</option>
+</select>
+<label for="t">Sample type</label><input id="t" name="sample-type">
+<label for="d">Preferred testing date</label><input id="d" name="date" type="date">
+<label for="m">Message / additional details</label><textarea id="m" name="message" rows="4"></textarea>
+<br><br><button class="btn" type="submit" id="send">Submit request</button>
+<div class="msg err" id="err" role="alert">Your request could not be sent. Please try again or email us directly.</div>
+</form>
+</div>
+<div>
+<h2>Contact us</h2><br>
+<p><strong>Address:</strong> Valencia City, Bukidnon</p>
+<p><strong>Phone:</strong> 09922586750</p>
+<p><strong>Email:</strong> arvymayvillarealrabuya@gmail.com</p>
+<p><strong>Hours:</strong> Monday to Saturday, 8:00 AM – 5:00 PM</p>
+<div class="map">Map placeholder<br>Valencia City, Bukidnon</div>
+<h2 style="margin-top:36px">FAQs</h2>
+<details><summary>How long until I get my report?</summary><p>Reports are targeted for release within 3–5 working days.</p></details>
+<details><summary>Do you visit the site?</summary><p>Yes. Field services include on-site sampling and testing.</p></details>
+<details><summary>Are the rates final?</summary><p>No. Listed rates are indicative. We send a final quotation on request.</p></details>
+</div>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div class="grid">
+<div><h3>TerraCore</h3><p>Tested ground. Trusted structures.</p></div>
+<div><h3>Location</h3><p>Valencia City, Bukidnon</p></div>
+<div><h3>Contact</h3><p>arvymayvillarealrabuya@gmail.com<br>09922586750</p></div>
+</div>
+<p class="copy">©TerraCore Materials Testing Laboratory.</p>
+</div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
